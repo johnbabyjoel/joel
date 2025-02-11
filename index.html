@@ -3,15 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Exerciise</title>
   </head>
   <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-      blanditiis quo, eligendi voluptatum voluptatibus maxime itaque, explicabo
-      eos, natus nam omnis rerum libero suscipit ullam ut harum cumque vero
-      magnam.
-    </p>
+    
 
     <!-- Exercise 1 -->
     <h1>Exercise 1</h1>
@@ -20,7 +15,7 @@
     <script>
       let a = () => {
         X = document.getElementById("hi").value;
-        alert("Here is the entered value: " + X), console.log(X);
+        alert("enter the value: " + X), console.log(X);
       };
     </script>
 
@@ -90,7 +85,7 @@
             sum += i;
           }
         }
-        alert("The sum of these multiples is : " + sum);
+        alert("The sum  : " + sum);
       };
     </script>
 
@@ -149,10 +144,10 @@
 
 <div style="display: flex; gap: 1rem;">
   <label for="a">Enter a:</label>
-<input type="text" id="d" placeholder="Enter a integer ">
+<input type="text" id="d" placeholder="Enter a  ">
 
 <label for="b">Enter b:</label>
-<input type="text" id="e" placeholder="Enter b integer ">
+<input type="text" id="e" placeholder="Enter b ">
 
 <label for="l">Enter array l (comma separated):</label>
 <input type="text" id="f" placeholder="e.g., 1,2,3,4,5,6,7,8,9">
@@ -178,13 +173,13 @@ function onCalculate() {
 
    
     if (isNaN(a) || isNaN(b) || !Array.isArray(l) || l.length === 0) {
-        alert("Please provide valid inputs.");
+        alert(" insert valid inputs.");
         return;
     }
 
     
     const result = f4(a, b, l);
-    alert("The sum of all multiples of " + a + " or " + b + " in the array is: " + result);
+    alert("The sum  " + a + " or " + b + " in the array is: " + result);
 }
 </script>
 
@@ -199,10 +194,10 @@ function onCalculate() {
     returned answer when they press the button.</p>
 
 
-<label for="a">Enter factors a (comma separated):</label>
+<label for="a">Enter the factors a (comma separated):</label>
     <input type="text" id="g" placeholder="e.g., 3, 5">
 
-    <label for="l">Enter array l (comma separated):</label>
+    <label for="l">Enter the array l (comma separated):</label>
     <input type="text" id="h" placeholder="e.g., 1, 2, 3, 4, 5, 6, 7, 8, 9, 10">
 
     <button onclick="onCalculate()">Calculate Sum</button>
